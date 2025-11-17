@@ -1,0 +1,26 @@
+.navbar--ul {
+  background-color: var(--navBackgroundColor);
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  & li {
+    text-decoration: none;
+    padding: 10px;
+    &:hover {
+
+      background-color: var(--navLinkHoverColor);
+    }
+  }
+
+  & a {
+    font-weight: 500;
+    color: var(--navLinkColor);
+    text-decoration: inherit;
+  }
+
+
+}
