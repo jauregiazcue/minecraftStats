@@ -1,6 +1,7 @@
 .navbar--ul {
   background-color: var(--navBackgroundColor);
   display: flex;
+  flex-wrap: wrap;
   justify-content:center;
   list-style-type: none;
   margin: 0;

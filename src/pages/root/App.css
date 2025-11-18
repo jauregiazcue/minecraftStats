@@ -41,16 +41,11 @@ body {
 }
 
 .myHeader {
-  padding: 0;
-  margin: 0;
   background-color: green;
-  height: 10vh;
-  & h1 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding-top: 2vh;
-    margin-top: 0;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .myMain {
